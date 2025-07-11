@@ -65,12 +65,12 @@ The SFML-based flight simulator visualizes:
 
 ### Method 2 : Manual Compilation
    - ``cmd
-     cd "C:\Users\USER\OneDrive\Desktop\Dijkstra PathFinder Visualizer"
-     g++ -IC:\SFML-2.6.2\include -c flight_booking.cpp
-     g++ flight_booking.o -o flight_booking.exe
+      - cd "C:\Users\USER\OneDrive\Desktop\Dijkstra PathFinder Visualizer"
+      - g++ -IC:\SFML-2.6.2\include -c flight_booking.cpp
+      - g++ flight_booking.o -o flight_booking.exe
      
-     g++ -IC:\SFML-2.6.2\include -c flight_simulator.cpp
-     g++ flight_simulator.o -o flight_simulator.exe -LC:\SFML-2.6.2\lib -lsfml-graphics -lsfml-window   -lsfml-system
+      - g++ -IC:\SFML-2.6.2\include -c flight_simulator.cpp
+      - g++ flight_simulator.o -o flight_simulator.exe -LC:\SFML-2.6.2\lib -lsfml-graphics -lsfml-window -lsfml-system
 
 ## How to Run
 
